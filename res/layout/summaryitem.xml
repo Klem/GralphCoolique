@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+ 
+    <!-- ImageView
+		android:id="@+id/drink_item_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:padding="10px"
+		/-->
+ 
+	    <TextView android:id="@+id/day_of_week"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:textSize="18px"
+	         android:textStyle="bold"
+	         />
+	    <TextView android:id="@+id/avg_alc_rate"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+    			  android:padding="3dip" 
+		          android:textSize="16px"
+	       		  android:textStyle="italic"
+			         />
+		<TextView android:id="@+id/avg_alc_rate_lbl"
+				  android:text="@string/summ_avg_rate"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+    			  android:padding="3dip" 
+		          android:textSize="16px"
+	       		  android:textStyle="italic"
+			         />	 
+	    <TextView android:id="@+id/consumed_units"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+    			  android:padding="3dip" 
+		          android:textSize="20px"
+	       		  android:textStyle="italic"
+			         />        
+		<TextView android:id="@+id/max_units"
+				  android:text="@string/summ_max_units"
+		          android:layout_width="70dip"
+		          android:layout_height="fill_parent"
+    			  android:padding="3dip" 
+    			  android:gravity="left"
+    			  android:textSize="20px"
+	       	      android:textStyle="italic"
+    				  />
+
+</LinearLayout>

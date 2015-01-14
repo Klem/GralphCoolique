@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout android:id="@+id/linearLayout1" 
+  				android:layout_width="fill_parent" 
+  				android:layout_height="fill_parent"
+  				android:orientation="vertical" 
+  				xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+  	  <LinearLayout	android:id="@+id/timebox" 
+  				android:layout_width="fill_parent" 
+  				android:layout_height="wrap_content"
+  				android:orientation="horizontal"
+  				android:gravity="center_horizontal" 
+  				xmlns:android="http://schemas.android.com/apk/res/android">
+  		<ImageView android:src="@drawable/ic_menu_resize" android:layout_width="wrap_content" android:id="@+id/left_calendar_arrow" android:layout_height="wrap_content"/>				
+      	<TextView android:text="TextView" 
+      			  android:id="@+id/currentweek" 
+      			  android:layout_width="wrap_content" 
+      			  android:layout_height="fill_parent"
+      			  android:gravity="center_vertical">
+      	</TextView>
+		<ImageView android:src="@drawable/ic_menu_resize" android:layout_width="wrap_content" android:id="@+id/right_calendar_arrow" android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<ListView
+        android:id="@+id/summarylist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+     />
+	   
+  </LinearLayout>
+  	 

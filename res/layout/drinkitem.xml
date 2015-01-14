@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+ 
+    <!-- ImageView
+		android:id="@+id/drink_item_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:padding="10px"
+		/-->
+ 
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:paddingLeft="10px"
+	    android:layout_weight="1"
+	    >
+ 
+	    <TextView android:id="@+id/drink_item_label"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:textSize="18px"
+	         android:textStyle="bold"
+	         />
+		 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			   	android:layout_gravity="center_horizontal"
+			   	android:paddingLeft="10px"
+			    android:layout_weight="1">
+			    
+			    <TextView android:id="@+id/drink_item_volume"
+			          android:layout_width="wrap_content"
+			          android:layout_height="fill_parent"
+    				  android:padding="3dip" 
+			          android:textSize="16px"
+	         		  android:textStyle="italic"
+			         />
+			     <TextView android:text="@string/drink_volume_units"
+			          android:layout_width="70dip"
+			          android:layout_height="fill_parent"
+    				  android:padding="3dip" 
+    				  android:gravity="left"
+    				  android:textSize="16px"
+	         	      android:textStyle="italic"
+    				  />
+    				  		 		      
+			     <TextView android:id="@+id/drink_item_proof"
+			         android:layout_width="wrap_content"
+			         android:layout_height="fill_parent"
+			         android:padding="3dip" 
+			         android:textSize="16px"
+	         		 android:textStyle="italic"
+			         />
+			     <TextView android:text="@string/drink_proof_unit"
+    				  android:layout_height="fill_parent"
+    				  android:layout_width="70dip"
+    				  android:padding="3dip" 
+    				  android:gravity="left"
+    				  android:textSize="16px"
+	         	      android:textStyle="italic"
+    				  />		 		      
+			     <TextView android:id="@+id/drink_item_units"
+    				  android:layout_height="fill_parent"			         
+    				  android:layout_width="wrap_content"
+    				  android:padding="3dip" 
+    				  android:gravity="left"
+    				  android:textSize="16px"
+	         	      android:textStyle="italic"
+			         />
+ 			</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

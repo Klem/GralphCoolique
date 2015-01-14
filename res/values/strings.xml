@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">GralfCoolik</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-
+    <string name="hello">Hello World, GralphCooliqueActicity!</string>
+    <string name="app_name">GralphCoolique</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="ok">Ok</string>
+    <!-- PAGE PRINCIPALE -->
+    <string name="summ_avg_rate">g/L</string>
+    <string name="summ_max_units">/3</string>
+    <!-- EDITEUR DE BOISSON + LISTE -->
+    <string name="drink_editor">Editeur de Boisson</string>
+    <string name="drink_label_lbl">Nom</string>
+    <string name="drink_type_lbl">Type</string>
+    <string name="drink_volume_lbl">Quantité</string>
+    <string name="drink_volume_units">Cl</string>
+    <string name="drink_proof_lbl">Alcool</string>
+    <string name="drink_proof_unit">%Alc\V</string>
+    <string name="drink_units_lbl">Unités</string>
+    <string name="save_drink_button">Enregistrer le godet</string>
+    <string name="drink_button_add">Ajouter une boisson</string>
+    <!-- SELCTEUR DE BOISSON -->
+    <string name="drink_picker">Choisir une boisson</string>
+    <string name="drink_picked">%d ajoutée au</string>
+    <!-- MESSAGE DERREUR -->
+    <string name="drink_err_volume_invalid_value">La quantité ne peut être inférieure à 0</string>
+    <string name="drink_err_proof_invalid_value">La teneur en alcool doit être comprise entre 0 et 100</string>
+    <string name="drink_err_label_invalid_value">Vous devez saisir un nom pour la boisson</string>
+    <string name="drink_err_not_saved">Erreur lors de l\'enregistrement de la boisson</string>
+    <string name="drink_conf_saved">Nouvelle boisson enregistrée</string>
+     <string name="drink_conf_upaded">Boisson modifiée</string>
+    <string name="drink_alert_delete">Supprimer</string>
+    <string name="drink_conf_deleted">supprimée</string>
+    <string name="drink_err_not_a_number">La quantité doit être un nombre</string>
 </resources>

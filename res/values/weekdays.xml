@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="weekdays">
+	<item>Dimanche</item>
+	<item>Lundi</item>
+	<item>Mardi</item>
+	<item>Mercredi</item>
+	<item>Jeudi</item>
+	<item>Vendredi</item>
+	<item>Samedi</item>
+	
+</string-array>
+</resources>

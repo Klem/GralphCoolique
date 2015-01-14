@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="drink_types">
+	<item>Apéritif</item>
+	<item>Alcool fort</item>
+	<item>Bière</item>
+	<item>Cocktail</item>
+	<item>Digestif</item>
+	<item>Gnôle</item>
+	<item>Liqueur</item>
+	<item>Spiritueux</item>
+</string-array>
+
+<string-array name="drink_list_action">
+	<item>Modifier</item>
+	<item>Supprimer</item>
+</string-array>
+
+<string-array name="summary_list_action">
+	<item>Ajouter boisson</item>
+	<item>Modifier</item>
+</string-array>
+
+</resources>
+
+
